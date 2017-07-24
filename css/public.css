@@ -53,6 +53,9 @@ a {
     -ms-user-select: none;
     user-select: none;
 }
+.head_div .top_box h3:hover{
+    text-decoration:underline;
+}
 .head_div .top_box h3:first-of-type{
     border:0;
 }
@@ -91,6 +94,7 @@ a {
     padding:0px 20px;
     position:relative;
     font-weight:bold;
+    cursor:pointer;
 }
 .menu_j{
     width:0;
@@ -165,6 +169,9 @@ a {
 .child_menu ul li:hover .sec_menu_div h3{
     display:block;
 }
+.child_menu ul li:hover .sec_menu_div h3:hover{
+    text-decoration:underline;
+}
 .search_box{
     width:300px;
     height:42px;
@@ -238,6 +245,10 @@ a {
     color:#00569f;
     margin:15px 0px;
     cursor:pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .bottom_box .link_box .link_div .link_btn img{
     width:14px;
@@ -275,6 +286,9 @@ a {
     padding:0px 15px;
     cursor:pointer;
 }
+.bottom_box .link_box .link_div ul li:hover{
+    text-decoration:underline;
+}
 .bottom_box .link_box .quick_link{
     height:60px;
     float:right;
@@ -288,6 +302,9 @@ a {
     border-right:1px solid #000;
     margin:23px 0px;
     cursor:pointer;
+}
+.bottom_box .link_box .quick_link h2:hover{
+    text-decoration:underline;
 }
 .bottom_box .link_box .quick_link h2:first-of-type{
     padding-right:0;

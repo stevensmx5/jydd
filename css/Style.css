@@ -92,12 +92,19 @@
     float:left;
     margin-left:35px;
 }
+.news_list_content .news_list_div ul{
+    width:100%;
+    height:287px;
+}
 .news_list_content .news_list_div li{
     width:100%;
     float:left;
-    border-bottom:1px dashed #9fa0a0;
+    border-bottom:1px dashed #e8e8e8;
     cursor:pointer;
     cursor:pointer;
+}
+.news_list_content .news_list_div li:hover h2{
+    text-decoration:underline;
 }
 .news_list_content .news_list_div li .dot{
     width:6px;
@@ -169,18 +176,25 @@
     background-color:#fff;
     box-sizing:border-box;
     padding:10px 15px;
-    cursor:pointer;
+}
+.inform_box .inform_list ul{
+    width:100%;
+    float:left;
 }
 .inform_box .inform_list li{
     width:100%;
     float:left;
+    margin:9px 0px;
+    cursor:pointer;
     font-size:14px;
-    line-height:14px;
-    margin:10px 0px;
+    line-height:16px;
     color:#777;
     overflow:hidden;
     text-overflow:ellipsis;
     white-space:nowrap;
+}
+.inform_box .inform_list li:hover{
+    text-decoration:underline;
 }
 
 .category_list_box{
@@ -190,7 +204,7 @@
 }
 .category_left{
     padding-right:30px;
-    border-right:1px solid #9fa0a0;
+    border-right:1px solid #e8e8e8;
 }
 .category_right{
     padding-left:30px;
@@ -214,6 +228,7 @@
 }
 .category_list_box ul{
     width:100%;
+    height:252px;
     float:left;
     padding-top:31px;
 }
@@ -222,6 +237,9 @@
     float:left;
     position:relative;
     cursor:pointer;
+}
+.category_list_box ul li:hover h2{
+    text-decoration:underline;
 }
 .category_list_box li .dot{
     width:6px;
@@ -252,6 +270,9 @@
     position:relative;
     margin-top:31px;
     cursor:pointer;
+}
+.category_img:hover h2{
+    text-decoration:underline;
 }
 .category_img img{
     width:100%;
@@ -378,4 +399,7 @@
     overflow:hidden;
     text-overflow:ellipsis;
     white-space:nowrap;
+}
+.communication_img:hover h3{
+    text-decoration:underline;
 }
