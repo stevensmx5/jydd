@@ -165,6 +165,49 @@ a {
 .child_menu ul li:hover .sec_menu_div h3{
     display:block;
 }
+.search_box{
+    width:300px;
+    height:42px;
+    float:right;
+    margin-top:4px;
+    background-color:#4065bd;
+}
+.search_box input{
+    width:255px;
+    height:42px;
+    float:left;
+    color:#fff;
+    font-size:16px;
+    line-height:20px;
+    box-sizing:border-box;
+    padding:11px 15px;
+    background-color:transparent;
+}
+.search_box input::-webkit-input-placeholder {
+    color:#a4b5df;
+}
+.search_box input:-moz-placeholder {
+    color:#a4b5df;
+}
+.search_box input::-moz-placeholder { 
+    color:#a4b5df;
+}
+.search_box input:-ms-input-placeholder { 
+    color:#a4b5df;
+}
+.search_box .search_btn{
+    width:42px;
+    height:42px;
+    float:right;
+    background-color:#093395;
+}
+.search_box .search_btn img{
+    width:28px;
+    height:28px;
+    float:left;
+    margin:7px;
+    cursor:pointer;
+}
 
 /*页面底部*/
 .bottom_box{
