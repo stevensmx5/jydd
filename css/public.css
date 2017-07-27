@@ -364,6 +364,26 @@ a {
 .page_body{
     width:1280px;
     box-sizing:border-box;
-    padding:40px;
+    padding:0px 40px 40px 40px;
     background-color:#fff;
+}
+.location_box{
+    width:100%;
+    padding:20px 10px;
+    overflow:hidden;
+}
+.location_box h2,
+.location_box h3{
+    float:left;
+    font-size:14px;
+    line-height:16px;
+    color:#8a8a8a;
+    cursor:pointer;
+}
+.location_box h3{
+    margin:0px 10px;
+}
+.location_box h2:hover,
+.location_box h3:hover{
+    text-decoration:underline;
 }

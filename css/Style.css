@@ -1,6 +1,7 @@
 ﻿.index_top{
     width:1200px;
     height:430px;
+    padding-top:40px;
 }
 .index_mid{
     width:1200px;
@@ -403,3 +404,284 @@
 .communication_img:hover h3{
     text-decoration:underline;
 }
+
+/*文章列表*/
+.list_page,
+.article_page{
+    width:100%;
+    box-sizing:border-box;
+    border:1px solid #d6d6d6;
+}
+.list_page .list_title{
+    width:100%;
+    font-size:24px;
+    line-height:26px;
+    font-weight:bold;
+    color:#00569f;
+    box-sizing:border-box;
+    padding:15px 25px;
+    background-color:#e9e9e9;
+    text-align:left;
+    border-bottom:4px solid #00569f;
+}
+.list_page .list_page_content{
+    width:100%;
+    overflow:hidden;
+    box-sizing:border-box;
+    padding:0px 40px;
+}
+.list_page .list_btn_box{
+    width:100%;
+    padding:40px 0px;
+    overflow:hidden;
+}
+.list_page .list_btn_box .list_btn{
+    width:261px;
+    height:42px;
+    float:left;
+    margin-left:22px;
+    font-size:18px;
+    line-height:42px;
+    color:#00569f;
+    border:1px solid #00569f;
+    border-radius:8px;
+    text-align:center;
+    cursor:pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.list_page .list_btn_box .list_btn:first-of-type{
+    margin:0;
+}
+.list_page .list_btn_box .list_btn.active{
+    background-color:#00569f;
+    color:#fff;
+}
+.list_page .list_box{
+    width:100%;
+    overflow:hidden;
+    border-bottom:1px solid #e0e0e0;
+}
+.list_page .list_box ul{
+    width:100%;
+    overflow:hidden;
+    border-top:1px solid #e0e0e0;
+    padding:40px 0px;
+}
+.list_page .list_box ul li{
+    width:100%;
+    float:left;
+    box-sizing:border-box;
+    padding-right:20px;
+    margin:15px 0px;
+    cursor:pointer;
+}
+.list_page .list_box ul li .dot{
+    width:6px;
+    height:6px;
+    float:left;
+    border-radius:50%;
+    background-color:#00569f;
+    margin:6px 8px 0px 8px;
+}
+.list_page .list_box ul li h2{
+    width:900px;
+    float:left;
+    font-size:16px;
+    line-height:18px;
+    color:#3e3a39;
+    text-align:left;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.list_page .list_box ul li h3{
+    width:118px;
+    float:right;
+    font-size:14px;
+    line-height:18px;
+    color:#9fa0a0;
+    text-align:right;
+}
+.list_page .list_box ul li:hover h2{
+    text-decoration:underline;
+}
+.list_page .pageno_box{
+    width:100%;
+    overflow:hidden;
+    padding:45px 0px;
+}
+.list_page .pageno_box .page_btn,
+.list_page .pageno_box .no_btn{
+    height:28px;
+    float:left;
+    border:1px solid #c9c9c9;
+    margin-right:5px;
+    cursor:pointer;
+    font-size:14px;
+    line-height:28px;
+    text-align:center;
+    color:#00569f;
+    background-color:#fff;
+}
+.list_page .pageno_box .page_btn{
+    width:55px;
+}
+.list_page .pageno_box .no_btn{
+    width:28px;
+}
+.list_page .pageno_box .page_btn:hover,
+.list_page .pageno_box .no_btn:hover{
+    color:#fff;
+    background-color:#00569f;
+}
+.list_page .pageno_box p{
+    float:left;
+    font-size:14px;
+    line-height:30px;
+    color:#545454;
+    margin-left:15px;
+}
+
+/*文章内容*/
+.article_page{
+    box-sizing:border-box;
+    padding:0px 40px 30px 40px;
+}
+.article_page .article_title{
+    width:100%;
+    border-bottom:1px solid #c9c9c9;
+    padding-bottom:15px;
+}
+.article_page .article_title h1{
+    width:100%;
+    font-size:38px;
+    line-height:38px;
+    margin:50px 0px;
+    color:#000;
+    text-align:center;
+}
+.article_page .article_title p{
+    width:100%;
+    font-size:14px;
+    line-height:16px;
+    color:#a7a7a7;
+    text-align:center;
+}
+.article_page .article_content{
+    width:100%;
+    padding-top:90px;
+}
+.article_page .article_content .article_img{
+    width:100%;
+}
+.article_page .article_content .article_img img{
+    margin:0px auto;
+}
+.article_page .article_content .article_img h2{
+    width:100%;
+    font-size:16px;
+    line-height:18px;
+    margin-top:20px;
+    text-align:center;
+    color:#202020;
+}
+.article_page .article_content p{
+    width:100%;
+    margin:60px 0px 100px 0px;
+    text-align:left;
+}
+.article_page .article_content .article_bottom_box{
+    width:100%;
+    overflow:hidden;
+    box-sizing:border-box;
+    padding:15px 60px;
+    border:1px solid #d8d8d8;
+    position:relative;
+}
+.article_page .article_content .article_bottom_box .l_t_img{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:0;
+    left:0;
+}
+.article_page .article_content .article_bottom_box ul{
+    width:540px;
+    min-height:184px;
+    float:left;
+}
+.article_page .article_content .article_bottom_box ul li{
+    width:100%;
+    float:left;
+    box-sizing:border-box;
+    padding:10px 10px 10px 0px;
+    border-top:1px dashed #e8e8e8;
+    cursor:pointer;
+}
+.article_page .article_content .article_bottom_box ul li:first-of-type{
+    border:0;
+}
+.article_page .article_content .article_bottom_box ul li .dot{
+    width:6px;
+    height:6px;
+    float:left;
+    border-radius:50%;
+    margin:5px 8px 0px 0px;
+    background-color:#9d9d9d;
+}
+.article_page .article_content .article_bottom_box ul li h2{
+    width:400px;
+    font-size:14px;
+    line-height:16px;
+    color:#3e3a39;
+    float:left;
+    text-align:left;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.article_page .article_content .article_bottom_box ul li h3{
+    width:110px;
+    font-size:14px;
+    line-height:16px;
+    float:right;
+    color:#9fa0a0;
+    text-align:right;
+}
+.article_page .article_content .article_bottom_box ul li:hover h2{
+    text-decoration:underline;
+}
+.article_page .article_content .article_bottom_box .qr_code_box{
+    width:230px;
+    height:115px;
+    float:left;
+    position:absolute;
+    top:50px;
+    right:100px;
+}
+.article_page .article_content .article_bottom_box .qr_code_box img{
+    width:115px;
+    height:115px;
+    float:left;
+}
+.article_page .article_content .article_bottom_box .qr_code_box .qr_code_text{
+    float:right;
+    margin-top:24px;
+}
+.article_page .article_content .article_bottom_box .qr_code_box .qr_code_text h2{
+    font-size:18px;
+    line-height:34px;
+    color:#3baf3e;
+    border-bottom:1px solid #3baf3e;
+}
+.article_page .article_content .article_bottom_box .qr_code_box .qr_code_text h3{
+    width:100%;
+    float:left;
+    text-align:center;
+    font-size:18px;
+    line-height:34px;
+    color:#3baf3e;
+} 
